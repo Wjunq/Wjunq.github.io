@@ -10,18 +10,18 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="http://example.com/2023/03/16/hello-world/"/>
+    <link rel="canonical" href="http://example.com/2023/03/17/学习python全栈第一天/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Hello World">
+    <meta property="og:title" content="学习python全栈第一天">
     <meta property="og:description" content="Hexo Theme Redefine">
-    <meta property="og:url" content="http://example.com2023/03/16/hello-world/">
+    <meta property="og:url" content="http://example.com2023/03/17/学习python全栈第一天/">
     
     <meta property="og:site_name" content="我的微博">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Hello World">
+    <meta name="twitter:title" content="学习python全栈第一天">
     <meta name="twitter:description" content="Hexo Theme Redefine">
     <meta name="twitter:image" content="/images/redefine-logo.svg">
     <!--- Icon Part-->
@@ -32,7 +32,7 @@
     
     <title>
         
-            Hello World -
+            学习python全栈第一天 -
         
         我的微博
     </title>
@@ -181,7 +181,7 @@
             
             
                 <div class="article-title">
-                    <h1 class="article-title-regular">Hello World</h1>
+                    <h1 class="article-title-regular">学习python全栈第一天</h1>
                 </div>
             
                 
@@ -203,15 +203,15 @@
                             <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="pc">2023-03-16 21:38:46</span>
-        <span class="mobile">2023-03-16 21:38</span>
+        <span class="pc">2023-03-17 22:27:41</span>
+        <span class="mobile">2023-03-17 22:27</span>
         <span class="hover-info">Created</span>
     </span>
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="pc">2023-03-16 21:34:08</span>
-            <span class="mobile">2023-03-16 21:34</span>
+            <span class="pc">2023-03-17 22:28:17</span>
+            <span class="mobile">2023-03-17 22:28</span>
             <span class="hover-info">Updated</span>
         </span>
     
@@ -235,31 +235,39 @@
             
 
             <div class="article-content markdown-body">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+                <blockquote>
+<p>python中的命名规范为_下划线</p>
+</blockquote>
+<blockquote>
+<p>1字节 = 8位</p>
+</blockquote>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">name = <span class="string">&quot;张三&quot;</span></span><br><span class="line">data = name.encode(<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(data)</span><br></pre></td></tr></table></figure></div>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>  在python中，以后在去做文件存储或网络传输时，不能直接使用字符串，而是需要将字符串压缩为utf-8编码的字节，再去传输</p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">name = <span class="string">&quot;张三&quot;</span></span><br><span class="line">data = name.encode(<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(data)</span><br></pre></td></tr></table></figure></div>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h4 id="阴阳图"><a href="#阴阳图" class="headerlink" title="阴阳图"></a>阴阳图</h4><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> turtle <span class="keyword">as</span> t</span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">圆的函数</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="comment"># 绘制大圆</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">big_circle</span>():</span><br><span class="line">    t.circle(<span class="number">100</span>)</span><br><span class="line">    <span class="comment"># 绘制半圆</span></span><br><span class="line">    t.color(<span class="string">&quot;black&quot;</span>,<span class="string">&quot;black&quot;</span>)</span><br><span class="line">    t.begin_fill()</span><br><span class="line">    t.circle(<span class="number">100</span>,<span class="number">180</span>)</span><br><span class="line">    t.end_fill()</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">half_circle</span>():</span><br><span class="line">    <span class="comment"># 第一个半圆</span></span><br><span class="line">    t.color(<span class="string">&quot;black&quot;</span>,<span class="string">&quot;black&quot;</span>)</span><br><span class="line">    t.begin_fill()</span><br><span class="line">    t.circle(<span class="number">50</span>,<span class="number">180</span>)</span><br><span class="line">    t.end_fill()</span><br><span class="line">    <span class="comment"># 第二个半圆</span></span><br><span class="line">    t.color(<span class="string">&quot;black&quot;</span>,<span class="string">&quot;white&quot;</span>)</span><br><span class="line">    t.begin_fill()</span><br><span class="line">    t.circle(-<span class="number">50</span>,<span class="number">180</span>)</span><br><span class="line">    t.end_fill()</span><br><span class="line"></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">move_circle</span>():</span><br><span class="line">    t.penup()</span><br><span class="line">    t.goto(<span class="number">0</span>,<span class="number">70</span>)</span><br><span class="line">    t.pendown()</span><br><span class="line">    t.color(<span class="string">&quot;black&quot;</span>,<span class="string">&quot;black&quot;</span>)</span><br><span class="line">    t.begin_fill()</span><br><span class="line">    t.circle(<span class="number">20</span>)</span><br><span class="line">    t.end_fill()</span><br><span class="line">    <span class="comment"># 第二个半圆</span></span><br><span class="line">    t.penup()</span><br><span class="line">    t.goto(<span class="number">0</span>,<span class="number">170</span>)</span><br><span class="line">    t.pendown()</span><br><span class="line">    t.color(<span class="string">&quot;white&quot;</span>,<span class="string">&quot;white&quot;</span>)</span><br><span class="line">    t.begin_fill()</span><br><span class="line">    t.circle(<span class="number">20</span>)</span><br><span class="line">    t.end_fill()</span><br><span class="line"></span><br><span class="line"><span class="comment"># 大圆</span></span><br><span class="line">big_circle()</span><br><span class="line"><span class="comment"># 两个半圆</span></span><br><span class="line">half_circle()</span><br><span class="line"><span class="comment"># 两个小圆</span></span><br><span class="line">move_circle()</span><br><span class="line"></span><br><span class="line">t.done()</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>读取文件</p>
+</blockquote>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 在文件中写入一个字符串</span></span><br><span class="line">name = <span class="string">&quot;张三&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 1. 打开文件</span></span><br><span class="line">file_object = <span class="built_in">open</span>(<span class="string">&quot;vip.tex&quot;</span>,mode=<span class="string">&quot;ab&quot;</span>)</span><br><span class="line"><span class="comment"># 2. 写入文件</span></span><br><span class="line">file_object.write(name.encode(<span class="string">&quot;utf-8&quot;</span>))</span><br><span class="line"><span class="comment"># 3.关闭文件</span></span><br><span class="line">file_object.close()</span><br></pre></td></tr></table></figure></div>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
+<h3 id="文件编码"><a href="#文件编码" class="headerlink" title="文件编码"></a>文件编码</h3><blockquote>
+<p>写文件，写了文件的文本内容，按照某种编码去存储文件；读文件，真正的内容读取出来，用同样的编码才能读取出来</p>
+</blockquote>
+<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2>
             </div>
 
             
                 <div class="post-copyright-info">
                     <div class="article-copyright-info-container">
     <ul>
-        <li>Post title：Hello World</li>
+        <li>Post title：学习python全栈第一天</li>
         <li>Post author：June</li>
-        <li>Create time：2023-03-16 21:38:46</li>
+        <li>Create time：2023-03-17 22:27:41</li>
         <li>
-            Post link：https://redefine.ohevan.com/2023/03/16/hello-world/
+            Post link：https://redefine.ohevan.com/2023/03/17/学习python全栈第一天/
         </li>
         <li>
             Copyright Notice：All articles in this blog are licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> unless stating additionally.
@@ -280,18 +288,33 @@
                         <div class="article-prev">
                             <a class="prev"
                             rel="prev"
-                            href="/2023/03/16/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"
+                            href="/2023/03/17/python-linux/"
                             >
                                 <span class="left arrow-icon flex-center">
                                     <i class="fa-solid fa-chevron-left"></i>
                                 </span>
                                 <span class="title flex-center">
-                                    <span class="post-nav-title-item">第一篇文章</span>
+                                    <span class="post-nav-title-item">python_linux</span>
                                     <span class="post-nav-item">Prev posts</span>
                                 </span>
                             </a>
                         </div>
                     
+                    
+                        <div class="article-next">
+                            <a class="next"
+                            rel="next"
+                            href="/2023/03/16/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"
+                            >
+                                <span class="title flex-center">
+                                    <span class="post-nav-title-item">第一篇文章</span>
+                                    <span class="post-nav-item">Next posts</span>
+                                </span>
+                                <span class="right arrow-icon flex-center">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </span>
+                            </a>
+                        </div>
                     
                 </div>
             
@@ -305,8 +328,8 @@
                 <div class="post-toc-wrap">
     <div class="post-toc">
         <div class="toc-title">On this page</div>
-        <div class="page-title">Hello World</div>
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol>
+        <div class="page-title">学习python全栈第一天</div>
+        <ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%98%B4%E9%98%B3%E5%9B%BE"><span class="nav-text">阴阳图</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%96%87%E4%BB%B6%E7%BC%96%E7%A0%81"><span class="nav-text">文件编码</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="nav-text">数据类型</span></a>
 
     </div>
 </div>
