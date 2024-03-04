@@ -10,18 +10,18 @@
     
     <!--- Seo Part-->
     
-    <link rel="canonical" href="http://example.com/2024/02/17/git/"/>
+    <link rel="canonical" href="http://example.com/2024/03/04/git/"/>
     <meta name="robots" content="index,follow">
     <meta name="googlebot" content="index,follow">
     <meta name="revisit-after" content="1 days">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="小强">
+    <meta property="og:title" content="Git常用命令">
     <meta property="og:description" content="Hexo Theme Redefine">
-    <meta property="og:url" content="http://example.com2024/02/17/git/">
+    <meta property="og:url" content="http://example.com2024/03/04/git/">
     
     <meta property="og:site_name" content="我的微博">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="小强">
+    <meta name="twitter:title" content="Git常用命令">
     <meta name="twitter:description" content="Hexo Theme Redefine">
     <meta name="twitter:image" content="/images/redefine-logo.svg">
     <!--- Icon Part-->
@@ -31,6 +31,8 @@
     <link rel="shortcut icon" href="/images/redefine-logo.svg">
     
     <title>
+        
+            Git常用命令 -
         
         我的微博
     </title>
@@ -179,7 +181,7 @@
             
             
                 <div class="article-title">
-                    <h1 class="article-title-regular"></h1>
+                    <h1 class="article-title-regular">Git常用命令</h1>
                 </div>
             
                 
@@ -201,20 +203,31 @@
                             <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fa-regular fa-pen-fancy"></i>&nbsp;
-        <span class="pc">2024-02-17 19:23:08</span>
-        <span class="mobile">2024-02-17 19:23</span>
+        <span class="pc">2024-03-04 10:59:24</span>
+        <span class="mobile">2024-03-04 10:59</span>
         <span class="hover-info">Created</span>
     </span>
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="pc">2024-02-17 19:28:12</span>
-            <span class="mobile">2024-02-17 19:28</span>
+            <span class="pc">2024-03-04 10:59:43</span>
+            <span class="mobile">2024-03-04 10:59</span>
             <span class="hover-info">Updated</span>
         </span>
     
 
     
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">Git常用命令</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
     
 
     
@@ -233,12 +246,12 @@
             
 
             <div class="article-content markdown-body">
-                <h2 id="Git全局设置"><a href="#Git全局设置" class="headerlink" title="Git全局设置"></a>Git全局设置</h2><blockquote>
+                <h1 id="Git常用命令"><a href="#Git常用命令" class="headerlink" title="Git常用命令"></a>Git常用命令</h1><h2 id="Git全局设置"><a href="#Git全局设置" class="headerlink" title="Git全局设置"></a>Git全局设置</h2><blockquote>
 <p>当安装Git后首先要做的事情是设置用户名称和email地址。这是非常重要的，因为每次Git提交都会使用该用户信息。在Git 命令行中执行下面命令</p>
 </blockquote>
-<h3 id="设置用户信息"><a href="#设置用户信息" class="headerlink" title="设置用户信息"></a>设置用户信息</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;itcast&quot;</span></span><br><span class="line"></span><br><span class="line">git config --global user.email <span class="string">&quot;hello@itcast.cn&quot;</span></span><br></pre></td></tr></table></figure></div>
+<h2 id="设置用户信息"><a href="#设置用户信息" class="headerlink" title="设置用户信息"></a>设置用户信息</h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;itcast&quot;</span></span><br><span class="line"></span><br><span class="line">git config --global user.email <span class="string">&quot;hello@itcast.cn&quot;</span></span><br></pre></td></tr></table></figure></div>
 
-<h3 id="查看配置信息"><a href="#查看配置信息" class="headerlink" title="查看配置信息"></a>查看配置信息</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure></div>
+<h2 id="查看配置信息"><a href="#查看配置信息" class="headerlink" title="查看配置信息"></a>查看配置信息</h2><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --list</span><br></pre></td></tr></table></figure></div>
 
 <h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><p>查看本地所有分支</p>
 <div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch</span><br></pre></td></tr></table></figure></div>
@@ -257,11 +270,11 @@
                 <div class="post-copyright-info">
                     <div class="article-copyright-info-container">
     <ul>
-        <li>Post title：</li>
+        <li>Post title：Git常用命令</li>
         <li>Post author：June</li>
-        <li>Create time：2024-02-17 19:23:08</li>
+        <li>Create time：2024-03-04 10:59:24</li>
         <li>
-            Post link：https://redefine.ohevan.com/2024/02/17/git/
+            Post link：https://redefine.ohevan.com/2024/03/04/git/
         </li>
         <li>
             Copyright Notice：All articles in this blog are licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> unless stating additionally.
@@ -273,6 +286,14 @@
             
 
             
+                <ul class="post-tags-box">
+                    
+                        <li class="tag-item">
+                            <a href="/tags/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">#Git常用命令</a>&nbsp;
+                        </li>
+                    
+                </ul>
+            
 
             
 
@@ -283,10 +304,10 @@
                         <div class="article-next">
                             <a class="next"
                             rel="next"
-                            href="/2023/05/03/node/"
+                            href="/2024/03/04/js%E6%95%B0%E7%BB%84./"
                             >
                                 <span class="title flex-center">
-                                    <span class="post-nav-title-item">node</span>
+                                    <span class="post-nav-title-item">Js数组方法</span>
                                     <span class="post-nav-item">Next posts</span>
                                 </span>
                                 <span class="right arrow-icon flex-center">
@@ -307,8 +328,8 @@
                 <div class="post-toc-wrap">
     <div class="post-toc">
         <div class="toc-title">On this page</div>
-        <div class="page-title"></div>
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Git%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE"><span class="nav-text">Git全局设置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF"><span class="nav-text">设置用户信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF"><span class="nav-text">查看配置信息</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="nav-text">常用命令</span></a></li></ol>
+        <div class="page-title">Git常用命令</div>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="nav-text">Git常用命令</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Git%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE"><span class="nav-text">Git全局设置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF"><span class="nav-text">设置用户信息</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%9F%A5%E7%9C%8B%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF"><span class="nav-text">查看配置信息</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="nav-text">常用命令</span></a></li></ol></li></ol>
 
     </div>
 </div>
